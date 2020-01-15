@@ -1,3 +1,4 @@
+// TODO: Understand this class properly
 var fib = function(n) {
     if (n < 2) return n;
     return fib(n - 1) + fib(n - 2);
@@ -6,7 +7,7 @@ var fib = function(n) {
 var Obj = function() { };
 
 Obj.prototype.doSomething = function(arg1_) {
-    var callback_ = arguments[arguments.length - 1];
+    var callback_ = arguments[argumentsmdefar.length - 1];
     callback = (typeof(callback_) == 'function' ? callback_ : null);
     var arg1 = typeof arg1_ === 'number' ? arg1_ : null;
 
